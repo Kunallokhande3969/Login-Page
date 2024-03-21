@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 70%;
+  width: 22%;
+  background-color: #fff;
+  border-radius: 15px;
+  text-align: center;
+}
+.center h2 {
+  padding-top: 25px;
+  line-height: 40px;
+  font-size: 30px;
+}
+.center h6 {
+  font-size: 10px;
+  color: rgba(0, 0, 0, 0.568);
+}
+#input {
+  margin-top: 1px;
+  line-height: 10px;
+}
+#input input {
+  margin-top: 22px;
+  height: 30px;
+  width: 65%;
+  border-radius: 6px;
+  border: none;
+  background-color: palevioletred;
+}
+.main ::placeholder {
+  padding-left: 20px;
+  color: black;
+}
+.main button {
+  padding: 7px 15px;
+  border-radius: 100px;
+  border: none;
+  background-color: darkmagenta;
+  color: #fff;
+  transition: all ease 1s cubic-bezier(0.19, 1, 0.22, 1);
+  
+}
+.main button:hover {
+  font-size: 10px;
+}
+
+#kk {
+  line-height: 26px;
+  margin-top: 15px;
+}
+.main #kunal {
+  background-color: transparent;
+  font-weight: 500;
+  border: 1px solid darkmagenta;
+  color: darkmagenta;
+}
